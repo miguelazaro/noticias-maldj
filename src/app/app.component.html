@@ -1,0 +1,6 @@
+<maldj-app-navbar-maldj [titulo]="'Buscador de noticias-maldj'"></maldj-app-navbar-maldj>
+<div class="container">
+  <maldj-app-formulario-maldj (parametrosSeleccionados)="buscarNoticias($event)" ></maldj-app-formulario-maldj>
+  <maldj-app-spinner-maldj *ngIf="loading"></maldj-app-spinner-maldj>
+  <maldj-app-listado-noticias [listNoticias]="listNoticias"></maldj-app-listado-noticias>
+</div>
