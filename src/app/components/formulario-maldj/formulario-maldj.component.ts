@@ -28,6 +28,15 @@ export class FormularioMaldjComponent implements OnInit {
     {value: 'fr', nombre: 'Francia'},
     {value: 'hu', nombre: 'Hungria'},
     {value: 'gb', nombre: 'Reino Unido'},
+    {value: 'ru', nombre: 'Rusia'},
+    {value: 'jp', nombre: 'Japón'},
+    {value: 'se', nombre: 'Suecia'},
+    {value: 'si', nombre: 'Slovenia'},
+    {value: 'id', nombre: 'Indonesia'},
+    {value: 'in', nombre: 'India'},
+    {value: 'nz', nombre: 'Nueva Zelanda'},
+    {value: 'gr', nombre: 'Grecia'},
+    {value: 'co', nombre: 'Colombia'},
   ];
 
   constructor() { }
